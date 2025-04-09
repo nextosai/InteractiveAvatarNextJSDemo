@@ -1,5 +1,9 @@
 export const AVATARS = [
   {
+    avatar_id: "b4e4d53d0f944abb9cd626b3e11b2103",
+    name: "Realbotix Aria Companion",
+  },
+  {
     avatar_id: "Ann_Therapist_public",
     name: "Ann Therapist",
   },

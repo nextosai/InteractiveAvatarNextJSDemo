@@ -28,9 +28,9 @@ export default function NavBar() {
           <Link
             isExternal
             color="foreground"
-            href="https://docs.heygen.com/reference/list-voices-v2"
+            href="https://www.realbotix.com"
           >
-            Voices
+            Company
           </Link>
 
           <ThemeSwitch />

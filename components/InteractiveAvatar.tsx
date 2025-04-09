@@ -33,8 +33,8 @@ export default function InteractiveAvatar() {
   const [isLoadingRepeat, setIsLoadingRepeat] = useState(false);
   const [stream, setStream] = useState<MediaStream>();
   const [debug, setDebug] = useState<string>();
-  const [knowledgeId, setKnowledgeId] = useState<string>("");
-  const [avatarId, setAvatarId] = useState<string>("");
+  const [knowledgeId, setKnowledgeId] = useState<string>("7d4cbba434c64d72812a43e501153c8a");
+  const [avatarId, setAvatarId] = useState<string>("b4e4d53d0f944abb9cd626b3e11b2103");
   const [language, setLanguage] = useState<string>("en");
 
   const [data, setData] = useState<StartAvatarResponse>();
@@ -234,18 +234,18 @@ export default function InteractiveAvatar() {
             <div className="h-full justify-center items-center flex flex-col gap-8 w-[500px] self-center">
               <div className="flex flex-col gap-2 w-full">
                 <p className="text-sm font-medium leading-none">
-                  Custom Knowledge ID (optional)
+                  Custom AI Knowledge ID 
                 </p>
                 <Input
-                  placeholder="Enter a custom knowledge ID"
+                  placeholder="Enter custom knowledge ID"
                   value={knowledgeId}
                   onChange={(e) => setKnowledgeId(e.target.value)}
                 />
                 <p className="text-sm font-medium leading-none">
-                  Custom Avatar ID (optional)
+                  Custom Avatar ID 
                 </p>
                 <Input
-                  placeholder="Enter a custom avatar ID"
+                  placeholder="Enter the Realbotix avatar ID"
                   value={avatarId}
                   onChange={(e) => setAvatarId(e.target.value)}
                 />

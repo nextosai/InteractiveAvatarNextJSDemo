@@ -1,5 +1,5 @@
 export function HeyGenLogo() {
-  return <img src="/heygen-logo.png" className="h-8" alt="HeyGen Logo" />;
+  return <img src="/logo_head.png" className="h-8" alt="Realbotix Logo" />;
 }
 
 type IconSvgProps = {

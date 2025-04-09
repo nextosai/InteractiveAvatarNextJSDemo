@@ -5,7 +5,7 @@ import ReactCodeMirror from "@uiw/react-codemirror";
 export default function InteractiveAvatarCode() {
   return (
     <div className="w-full flex flex-col gap-2">
-      <p>This SDK supports the following behavior:</p>
+      <p>This Demo supports the following behavior:</p>
       <ul>
         <li>
           <div className="flex flex-row gap-2">

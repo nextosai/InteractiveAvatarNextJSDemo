@@ -301,7 +301,7 @@ export default function InteractiveAvatar() {
               handleChangeChatMode(v);
             }}
           >
-            <Tab key="text_mode" title="Text mode" />
+            <Tab key="text_mode" title="Repeat mode" />
             <Tab key="voice_mode" title="Voice mode" />
           </Tabs>
           {chatMode === "text_mode" ? (
